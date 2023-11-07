@@ -48,3 +48,12 @@ console.log(ageJeremy > 40)
 
 const isFullAge = ageJeremy >= 18;
 console.log(isFullAge)
+
+const now = 2024;
+console.log(now - 1991 > now - 2010)
+
+let a;
+
+a = 10 - 5;
+
+const averageAge = 10 + 15 / 2 
