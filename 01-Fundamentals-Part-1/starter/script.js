@@ -8,11 +8,11 @@
 
 // let 3years = 3
 
-let javascriptIsFun = true
-console.log(typeof true)
-console.log(typeof javascriptIsFun)
-console.log(typeof 23)
-console.log(typeof 'Jeremy')
+// let javascriptIsFun = true
+// console.log(typeof true)
+// console.log(typeof javascriptIsFun)
+// console.log(typeof 23)
+// console.log(typeof 'Jeremy')
 
 
 // javascriptIsFun = 'oui'
@@ -30,21 +30,49 @@ console.log(typeof 'Jeremy')
 // birthYear = 1991
 // console.log(birthYear)
 
-const firstName = "jeremy"
-const lastName = "Vangansberg"
+// const firstName = "jeremy"
+// const lastName = "Vangansberg"
 
-console.log(firstName + ' ' +lastName)
+// console.log(firstName + ' ' +lastName)
 
-let x = 2 + 2
-console.log(x)
+// let x = 2 + 2
+// console.log(x)
 
-x += 10
-x++; 
-x++; 
-console.log(x)
+// x += 10
+// x++; 
+// x++; 
+// console.log(x)
 
-const ageJeremy = 33;
-console.log(ageJeremy > 40)
+// const ageJeremy = 33;
+// console.log(ageJeremy > 40)
 
-const isFullAge = ageJeremy >= 18;
-console.log(isFullAge)
+// const isFullAge = ageJeremy >= 18;
+// console.log(isFullAge)
+
+// coding challenge
+
+const heightMark = 1.69;
+const heightJohn = 1.95;
+const weightMark = 78;
+const weightJohn = 92;
+
+const BMIMark = weightMark / heightMark ** 2
+
+const BMIJohn = weightJohn / heightJohn ** 2
+
+const markHigherBMI = BMIMark > BMIJohn
+
+console.log(markHigherBMI)
+
+// strings literal
+
+const firstName = 'Jeremy'
+const job = 'teacher'
+const birthYear = 1990
+const year = 2024
+
+const bioJeremy = "Je m'appelle " + firstName + ", j'ai " +  (year - birthYear) + 'ans et je suis ' + job;
+
+console.log(bioJeremy)
+
+const bioJeremyEnhanced = ``
